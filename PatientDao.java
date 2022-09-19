@@ -43,7 +43,7 @@ public static boolean deletePatient(int patientid) {
 		//set thye valuse of parameter
 		pstmst.setInt(1, patientid);
 	
-		//execute
+		//Execute
 		pstmst.executeUpdate();
 		f=true;
 	}
@@ -78,7 +78,7 @@ public static boolean  showAllPatient() {
 			System.out.println("Diagnosis:"+Diagnosis);
 			System.out.println("Doctorname:"+Doctorname);
 			System.out.println("Fees:"+Fees);
-			System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++");
+			System.out.println("++++++");
 
 
 		}
